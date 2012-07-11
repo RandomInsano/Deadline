@@ -8,7 +8,7 @@
 # and my own output. Look at older revisions to find a much simpler script
 
 # Pre-flight stuff
-yum -d 0 install automake libtool autoconf gcc-c++ bison gettext make # Mono deps
+yum -d 0 install glib2-devel automake libtool autoconf gcc-c++ bison gettext make # Mono deps
 yum -d 0 install glib2-devel libpng-devel libX11-devel fontconfig-devel freetype-devel #libgdiplus deps
 
 echo "==============================================="
